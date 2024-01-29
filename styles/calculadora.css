@@ -1,0 +1,43 @@
+#calc{
+    display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+
+.calcBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    background-color: #A0948B;
+    color: #8B6B52;
+    height: 160px;
+    width: 200px;
+    border-radius: 16px;
+    border: 2px solid #6B5E66;
+    text-align: center;
+    font-weight: bold;
+}
+
+.calcBox p{
+    font-size: 30px;
+    margin: 1px 0;
+}
+
+
+.calcBox span {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+}
+
+
+#contador{
+    display: flex;
+    flex-direction: row;
+    gap: 5px; 
+    padding: 10px;
+    align-items: center;
+}

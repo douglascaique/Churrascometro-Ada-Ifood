@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+
+    <link rel="stylesheet" href="/projeto/styles/style.css">
+    <link rel="stylesheet" href="/projeto/styles/darkmode.css">
+    <link rel="stylesheet" href="/projeto/styles/calculadora.css">
+    <link rel="stylesheet" href="/projeto/styles/resultado.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div id="toggle">
+            <i id="toggleMode"></i>
+        </div>
+    </header>
+
+    <h1>Churrascômetro</h1>
+    <p>Confira a lista para seu churrasco!</p>
+    <div id="resultados">
+        <p></p>
+        <p></p>
+    </div>
+    
+    <ul>
+        <li>
+            <span>Carne</span>
+            <span id="carne-quantidade">0</span>
+        </li>
+        <li>
+            <span>Cerveja</span>
+            <span id="cerveja-quantidade">0</span>
+        </li>
+        <li>
+            <span>Sal Grosso</span>
+            <span id="sal-quantidade">0</span>
+        </li>
+        <li>
+            <span>Refrigerante</span>
+            <span id="refrigerante-quantidade">0</span>
+        </li>
+        <li>
+            <span>Água</span>
+            <span id="agua-quantidade">0</span>
+        </li>
+        <li>
+            <span>Carvão</span>
+            <span id="carvao-quantidade">0</span>
+        </li>
+        <li>
+            <span>Gelo</span>
+            <span id="gelo-quantidade">0</span>
+        </li>
+        <li>
+            <span>Pão de Alho</span>
+            <span id="pao-de-alho-quantidade">0</span>
+        </li>
+    </ul>
+
+    <button class="btnLaranja" id="calcular" type="submit"><a href="index.html">Novo Cálculo</a></button>
+
+    <script src="/projeto/scripts/darkmode.js"></script>
+    <script src="/projeto/scripts/calculadora.js"></script>
+    <script src="/projeto/scripts/resultado.js"></script>
+
+</body>
+</html>
