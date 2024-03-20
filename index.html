@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+
+    <link rel="stylesheet" href="/projeto/styles/style.css">
+    <link rel="stylesheet" href="/projeto/styles/darkmode.css">
+    <link rel="stylesheet" href="/projeto/styles/calculadora.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div id="toggle">
+            <i id="toggleMode"></i>
+        </div>
+    </header>
+
+    <h1>Churrascômetro</h1>
+    <p>Precisa de uma ajudinha com o churrasco? :)</p>
+    <p>Quantas pessoas vão participar?</p>
+    
+   <div id="calc">
+    <div class="calcBox" id="homens">
+        <span>Homens</span>
+        <p>0</p>
+        <div id="contador">
+            <button type="button">-</button>
+            <button type="button">+</button>
+        </div>
+    </div>
+
+    <div class="calcBox" id="mulheres">
+        <span>Mulheres</span>
+        <p>0</p>
+        <div id="contador">
+            <button type="button">-</button>
+            <button type="button">+</button>
+        </div>
+    </div>
+
+    <div class="calcBox" id="criancas">
+        <span>Crianças</span>
+        <p>0</p>
+        <div id="contador">
+            <button type="button">-</button>
+            <button type="button">+</button>
+        </div>
+    </div>
+
+    <div class="calcBox" id="seBebem">
+        <span>Quantos adultos bebem?</span>
+        <p>0</p>
+        <div id="contador">
+            <button type="button">-</button>
+            <button type="button">+</button>
+        </div>
+    </div>
+   </div>
+
+    <button class="btnLaranja" id="calcular" type="submit"><a href="form.html">Calcular</a></button>
+
+
+    <script src="/projeto/scripts/darkmode.js"></script>
+    <script src="/projeto/scripts/calculadora.js"></script>
+    <!-- <script src="/projeto/scripts/resultado.js"></script> -->
+
+
+</body>
+</html>
